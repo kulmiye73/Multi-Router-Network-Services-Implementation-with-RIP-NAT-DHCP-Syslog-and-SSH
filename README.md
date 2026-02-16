@@ -15,24 +15,39 @@ Lab details.
 
 3. Configure PAT on R1 and R2 to translate their inside hosts to their G0/1 interface
 
-4. Configure R1 as a DHCP server with two pools:
-1pool:
+### 4. Configure R1 as a DHCP server with two pools:
+#### 1pool:
+
 Network: 192.168.1.0/24
+
 Default gateway: 192.168.1.1
+
 DNS server: 30.0.0.100
+
 Excluded range: 192.168.1.1 - 192.168.1.10
-2pool:
+
+#### 2pool:
 Network: 192.168.2.0/24
+
 Default gateway: 192.168.2.1
+
 DNS server: 30.0.0.100
+
 Excluded range: 192.168.2.1 - 192.168.2.10
 
-5. Configure R2 to forward DHCP requests to R1
 
-6. Configure R1 for SSH version 2 access on the VTY lines:
+### 5. Configure R2 to forward DHCP requests to R1
+
+### 6. Configure R1 for SSH version 2 access on the VTY lines:
+
 Username: cisco, password: ccna
+
+
 Domain name: cisco.com
+
+
 Key modulus: 1024 bit
+
 
 # Task one
 
@@ -299,16 +314,24 @@ R2(config)#
 ## 1pool:
 
 Network: 192.168.1.0/24
+
 Default gateway: 192.168.1.1
+
 DNS server: 30.0.0.100
+
 Excluded range: 192.168.1.1 - 192.168.1.10
+
 
 ## 2pool:
 
 Network: 192.168.2.0/24
+
 Default gateway: 192.168.2.1
+
 DNS server: 30.0.0.100
+
 Excluded range: 192.168.2.1 - 192.168.2.10
+
 
 R1(config)#ip dhcp pool 1pool
 
@@ -439,7 +462,7 @@ SSH Enabled - version 2.0
 
 Authentication timeout: 120 secs; Authentication retries: 3
 
-Now we can remotely access from PC3 to Router1 using this command 
+### Now we can remotely access from PC3 to Router1 using this command 
 
 C:\>
 
