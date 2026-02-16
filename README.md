@@ -394,9 +394,13 @@ R2(config-if)#
 C:\>ipconfig /renew
 
 IP Address......................: 192.168.2.13
+
 Subnet Mask.....................: 255.255.255.0
+
 Default Gateway.................: 192.168.2.1
+
 DNS Server......................: 30.0.0.100
+
 
 # Task Six
 
