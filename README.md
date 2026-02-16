@@ -1,5 +1,10 @@
 # Multi-Router-Network-Services-Implementation-with-RIP-NAT-DHCP-Syslog-and-SSH
+
 ## Designed a multi-router Cisco network using RIP v2 for dynamic routing. Implemented PAT for internet access, centralized DHCP with relay, Syslog monitoring, and SSH v2 secure management, demonstrating core CCNA enterprise networking skills.
+
+
+<img width="975" height="518" alt="image" src="https://github.com/user-attachments/assets/9f74e994-f492-4139-a9b0-0ed4ed7ce47c" />
+
 
  
 
