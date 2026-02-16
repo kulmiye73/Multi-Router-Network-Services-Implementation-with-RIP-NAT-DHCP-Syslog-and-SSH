@@ -8,9 +8,11 @@
 
  
 
-Multi-Router Network Services Implementation with RIP, NAT, DHCP, Syslog, and SSH
 
-Lab details.
+
+## Multi-Router Network Services Implementation with RIP, NAT, DHCP, Syslog, and SSH
+
+### Lab details.
 
 1. Configure RIP between R1, R2, and R3, advertising all connected networks.
 -Use RIP version 2
